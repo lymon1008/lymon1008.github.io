@@ -6,5 +6,9 @@
   "cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb": {
     "name": "copyVault剪切板",
     "desc": ""
+  },
+  "cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb": {
+    "name": "键盘增强",
+    "desc": ""
   }
 }
