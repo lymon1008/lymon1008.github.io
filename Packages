@@ -1,0 +1,19 @@
+Package: com.sini.fixset
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: 越狱插件
+Maintainer: gblw
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/fixset修复配置arm64e.deb
+Size: 36816
+MD5sum: 707afa1456136bd88c0de2866bbdc55d
+SHA1: a0fd752aa895abbef9a760b6c6b4b3e8e7b0ca0a
+SHA256: f168153582e2bd5e15022b5b7920b0e1e5225b45a6fb9136a61b466ae3b9f431
+SHA512: 34a22287298d9393c2230a262e5e106b22dda36f58823488e981205874cea2e7dd29a556f96610154983519dfa3937d31820922f025d63f59c56a6fa947b863e
+Description: 修复部分插件转roothide配置不保存问题
+Icon: https://sini921.github.io/repo/sileodepiction/icon/fixset.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/fixset/js.json
+Author: @bswbw
+Name: FixSet(roothide)
+
