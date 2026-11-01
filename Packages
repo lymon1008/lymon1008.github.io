@@ -117,6 +117,24 @@ Author: zqbb
 Name: hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64e
+Version: 1.9.9.1
+Section: 插件
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
+Size: 371644
+MD5sum: f0e4a5a5ae4516566a467ce3c7d04685
+SHA1: b16a76d1925b162341929aa676a76842804be7f9
+SHA256: c9506a411870d8e036003ed17d12ef8e42fbae6322785bf9bb2b3e89df9abb44
+SHA512: 6d2719631cf0fb331d24c237d5fc55592eee30502afb7877c8e73d46cda6c2d14326d485be5e0f5e46da4665fe0dc4243ac99953b36e0415812ee33e3095f2d2
+Description: Safari浏览器增强。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+Author: 0xkuj
+
 Package: com.82flex.unseen
 Architecture: iphoneos-arm64e
 Version: 0.0.5
