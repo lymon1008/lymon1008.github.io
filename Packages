@@ -562,6 +562,73 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64e
+Version: 4.0.0-beta.3
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27716
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/com.jaysuen.evocenter_4.0.0-beta.3_iphoneos-arm64e.deb
+Size: 1451748
+MD5sum: e8e0613d76a8ba625850f5753442edac
+SHA1: 0af274ae8653e8d9b809ee14a52bf8661cac4bf9
+SHA256: 8d4cb9d99d7862498f7e0bc7fea45d43c9642974437a6e209dabbfae3910a236
+SHA512: 76dec24339bf807b5c1230876079ed7ce46781b78da3a88587e131f2dd5931de807f2de3975122472cae0426acb36e62bc6fcc779003472568b9487fae572584
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
+
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Section: Tweaks
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 962368
+MD5sum: 616d9cbdcb537a777506d50d22609aed
+SHA1: 66ff8afad5f49afcaaaf249dfae86bc25038d44e
+SHA256: 7158eda33a390217f9fda49c8dad062f8eebaf5f5f402059f20447ff10f32cc8
+SHA512: 16c0b253295d2f40741582cc29b8e1ab2007c0b24ccee56cccd69750491276f4e8dff2cee027cdcb8e8c1d9e4f8c620a7ce28d0662f104a46f58db1b7befc5d2
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+
+Package: com.lenglengyu.ghallownetwork
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
+Size: 7972
+MD5sum: 61e194e670f34229b51875af4d1328c6
+SHA1: a4fb4dcc71a3064244b2c47aa3ac0e249f4396a7
+SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
+SHA512: 941fd5b0cecd9926d9d74c07ec84af2918a43b7d8c048d8a8ca650c8438ba27d92371fdb4e5211f218b5cadcee0fff36ee0f38f3ad7d68c498cec7243a1a36d1
+Description: 国行手机自动允许使用网络。
+Name: Allow Network
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
 Package: com.minis.rainbowkeyboard
 Architecture: iphoneos-arm64e
 Version: 1.2.60
