@@ -15,5 +15,10 @@
     "name": "hello后台增强",
     "desc": "",
     "keyType": "package"
+  },
+  "pkg:cn.zqbb.stopautolaunchapps": {
+    "name": "hello 3Q",
+    "desc": "",
+    "keyType": "package"
   }
 }
