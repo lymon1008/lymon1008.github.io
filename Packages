@@ -793,6 +793,81 @@ Name: 禁用vpn显示
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.0_iphoneos-arm64e.deb
+Size: 3562028
+MD5sum: 986c891783018b507aabda7ec3db4ce6
+SHA1: f366b1096965aba1a79286c1f01d4826e647ca88
+SHA256: 29d35cbccc0b6e686109b263f55b08dfc46b0be58c90fe86a92510273df41ade
+SHA512: 022292f428b46619ce49c7d792df13c34399269d77589f822a652a55bafa0ffdd459e346cf604cc80b064abe033e5be5230d2a96ca7a86490b8fc8cfea4a928e
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1107
+SileoDepiction: https://apt.htv123.com/sileo/1107
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Priority: optional
+Section: System
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.xybp888.perfectdynamiclsland.roothide_1.4.0_iphoneos-arm64e.deb
+Size: 922314
+MD5sum: 0c2e7bf6845270af5d2155722e6bf166
+SHA1: f98c31684da2ce8c47375e1f228edf7a9f56ac70
+SHA256: bcaeec09627fe09eba39e698ff5d6e574cd0f490c57023bba4673ca6567f0883
+SHA512: 6356cc6126ce0cb2a00857cb44a320015ed308e2dbea3ffab6f49d8fadd70b2e274632bd8ed5ef1eb7626ef7f9cccf43c478478c8d9b8e3a47850d276da2f6ff
+Description: 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/999
+SileoDepiction: https://apt.htv123.com/sileo/999
+
+Package: com.yaowell.hideavcontrols
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.yaowell.hideavcontrols_1.1_iphoneos-arm64e.deb
+Size: 4776
+MD5sum: fa0ecc7bb2e38759b59b641c2717377c
+SHA1: 6740779fdc8afbb5940b27e86f4913d70e8c02b5
+SHA256: ea505ec3443953422aaf4f927a3a517521764c7e1b7c803e0059adf27375e538
+SHA512: 99e88c10888c07f86e5e93d1d45e801cb5ed961d6622fef5a96ab0cab497f58838f4e3009dc3678530e15629c7339202015f6d842ae4c070b23e399475462c6d
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Name: HideAVControls
+Author: yaowell
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
+
+Package: com.yourepo.lly.adsspee-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: lenglengyu
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: debs/com.yourepo.lly.adsspee-rootless_1.1.3_iphoneos-arm64e.deb
+Size: 110416
+MD5sum: 7b332ea351fc659b2745b1e78daa8c08
+SHA1: cfadb4af847e41b226cee372d751b5002a940f29
+SHA256: 7f13445f4e8f840bca6cb86899f3e5e4e7b6d8bb66118bb4979b7e6ea75207ed
+SHA512: 39b59df5efdec6c7faac8560ae450e57c6c1631b3f07d10d95771dde3cbeb961f942c79ca3767f1784099d77aaaec57f1b12cc10058160a183c36c24c4373c14
+Description: 快速跳过激励视频广告，奖励正常领取
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
