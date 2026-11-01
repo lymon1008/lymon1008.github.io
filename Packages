@@ -135,6 +135,23 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 Author: 0xkuj
 
+Package: com.82flex.noredirect
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 832
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/com.82flex.noredirect_2.1_iphoneos-arm64e.deb
+Size: 91248
+MD5sum: 832ba88a44f18d6e5594582f4a4d3792
+SHA1: 366cbdf1dec96c96efced0c3ed65deb6c1a52c8b
+SHA256: 8fd67f9b2b9758b68950e57d780988d54bb0fc7456d2852db731102b0635c69d
+SHA512: 819974349a196472577c560f855bb01431f9d0e2600bafa356460d07631e3da2ae922fc94bba12288f2151e5f51e223a10935bb9c17b722ffa6b20a722c1f8cb
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Name: No Redirect
+Author: Lessica <82flex@gmail.com>
+
 Package: com.82flex.unseen
 Architecture: iphoneos-arm64e
 Version: 0.0.5
@@ -886,6 +903,26 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/fixset.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/fixset/js.json
 Author: @bswbw
 Name: FixSet(roothide)
+
+Package: github.poqw312.showmytouches
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/github.poqw312.showmytouches_1.1.2_iphoneos-arm64e.deb
+Size: 52648
+MD5sum: 21b1f9c37812d490a0edd69a57685c97
+SHA1: 7374e325334bc88552e2cff3b7b030fd870e1749
+SHA256: 80583af2cd3e76f4eeb304f267230d515727acbdd8de8c40145913fb531fa9e9
+SHA512: 406f7cdcaf2754098570298b23fc3103ba34b1525d0a4a2441c9b7689ef34556f13c6e5add43d7f5118a8f9684e2b18939e3c58f248a317da76284b27f91dc95
+Description: 屏幕录制时显示触摸轨迹。
+Depiction:
+SileoDepiction:
+Icon:
+Name: ShowMyTouches触摸轨迹-Roothide
+Author: dvntm
 
 Package: netskao.3dnetworkfixer-rootless
 Architecture: iphoneos-arm64e
