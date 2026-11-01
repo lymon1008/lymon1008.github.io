@@ -10,5 +10,10 @@
   "cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb": {
     "name": "键盘增强",
     "desc": ""
+  },
+  "pkg:cn.zqbb.hello.memorystatus": {
+    "name": "hello后台增强",
+    "desc": "",
+    "keyType": "package"
   }
 }
