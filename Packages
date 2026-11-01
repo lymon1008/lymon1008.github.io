@@ -887,3 +887,21 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/fixset/js.json
 Author: @bswbw
 Name: FixSet(roothide)
 
+Package: netskao.3dnetworkfixer-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Netskao-Tweaks
+Maintainer: Netskao
+Installed-Size: 496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.3dnetworkfixer-rootless_1.1-8_iphoneos-arm64e.deb
+Size: 116164
+MD5sum: 920ba34e0988b0b35f1d061c0d02d7c6
+SHA1: 3677482d10bf9c8d6c65e9f592e601f0ec3b71f6
+SHA256: 1e9514ae701414351a22a3db4b74cda06391a07f10e9131b4b59451bb0f2caa6
+SHA512: 6da97d2083b566360d0cc392ac311a3ca9623029947cc7187063627daf4cb67caca2efcf5070f157d93c56987d5e9bf9d6a064c4fec99040c0fc5b6f7c1a9b13
+Description: 安装后无图标无设置，长按桌面应用程序图标，在弹出的菜单窗口点击NetworkFixer即可快速修复该应用程序的网络权限。支持iOS13-iOS16系统
+Author: Netskao
+Name: 3DNetworkFixer联网修复-Roothide
+
