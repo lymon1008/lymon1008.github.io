@@ -350,6 +350,112 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Name: StayAlive Lite
 Author: crctdd
 
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Section: 嗨-工具
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
+Size: 498256
+MD5sum: edbbb602ba5ec129edc1396803efff79
+SHA1: d66d7fb81718be6dd220f40621a538b8fb933e97
+SHA256: 0fa305deda572f8dde4ec69ab6571dff1af7d6cd0ac4eb090b69d7a12f64921d
+SHA512: 07960eed642496a174c136a4b96b86adde2da31f42d2491b0eaac5c40f13b86206a8eea9d51f8892bb92cbc43c7a2e4ce09647bc4eafca06fcd3954c71384984
+Description: 超级控制中心模块集合！
+Name: CCLess++(RootHide)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.dao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: 嗨-工具
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28916
+MD5sum: 780888e00f6a297ae56497c8a703e641
+SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
+SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
+SHA512: ddd776131b68748dea90efd8f2b99460f139fedba2fdde149c7fdfc16f7aab8ab9c025a1a1d1e893b24327ded06cb7ce567bc52823e74fcaabe62135567a6919
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Name: Filza Crack(RootHide)
+Author: Netskao
+
+Package: com.dao.safarix.cn
+Architecture: iphoneos-arm64e
+Version: 1.9.9.1
+Section: 嗨-汉化
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dao.safarix.cn_1.9.9.1_iphoneos-arm64e.deb
+Size: 9808
+MD5sum: 1ea529881c6138e1addcbd19039877d8
+SHA1: 6c9a2ec11089238a3298462bfe7e8374a973b0dc
+SHA256: fc6c85355dfc879359a9d520da0fb09e589d82ad0950bbcd78a5d87934255f73
+SHA512: fe14cc7a14e52c1373ed02e5800028af5c004e77c32c8224755bf0b051bbb0c63a718c2cc42da47753094a6caea0ff6ea39ba781a81a91a4a5f3fc2b6544cc14
+Description: SafariX 简体中文包(RootHide)。
+Name: SafariX 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-14
+Section: 嗨-系统
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/com.dao.sileo_2.5.1-14_iphoneos-arm64e.deb
+Size: 3007580
+MD5sum: 68a5fced6ce6da22b7bfbd9d5e9197bc
+SHA1: 655682a1f6511c8e1e3e668310733ad5a394a922
+SHA256: 564280c20d3f93b0f604c77d6ac99ca41c58d4789e2c06ff50e2d0685ac07e9f
+SHA512: 6d87a64b1951606a427a680a0d34cf5087fe208ece51e3cb171f1718921c0754f69126305eb9a05898c895f6aa10bacabe6bfb77ba33d295160470c88a4a6554
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Name: Sileo(RootHide)
+Author: Amy While
+
+Package: com.dao.watched
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: 嗨-工具
+Maintainer: Little 34306
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.34306.watched
+Filename: debs/com.dao.watched_2.0_iphoneos-arm64e.deb
+Size: 5792
+MD5sum: 798e9b53c8040954725bb99c2338535d
+SHA1: 80f2efb395d3d1b472fdbc3243e157ad55f3e445
+SHA256: e291fef8696216c564f7dafd59fa0167f45d9379646b7ed9d49ec5dd077e88b5
+SHA512: e605cf0be426a23e436d07ae0e15da159cde991b8559bd8c5732c64318da199e20c6470888646986c5fefafd204bd2712f069cb9e17250865eb57f2d945a2f1e
+Description: 让旧 iOS 版本配对新 watchOS(自测) 版本，无设置，安装即可生效；2.0：支持iOS17+，添加功能：支持照片同步、支持音乐同步、支持可安装应用同步、支持地图同步。
+Name: watched 手表配对(RootHide)
+Author: 34306
+
+Package: com.daodao.goodwifi
+Architecture: iphoneos-arm64e
+Version: 1.7.5
+Section: 嗨-工具
+Maintainer: daodao
+Installed-Size: 500
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+Filename: debs/com.daodao.goodwifi_1.7.5_iphoneos-arm64e.deb
+Size: 71792
+MD5sum: ec12becce7b358525f3072db39819134
+SHA1: d8efaa82ac1bd75fc04fa6e2f97314c5a39672c6
+SHA256: fd17a6297489f857968919576f3d70947ea888a8a62055eb0919a6c582aadcd0
+SHA512: 47832576c671792fb5adf52af1b5d7498e4afaea76d57804fe375ee2021a551953d5f1422faeb162a90484beb2deb64acfcf4045bea98ff414a94f58c78eff7c
+Description: 更好的 WiFi 配置，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文优化版。
+Name: GoodWiFi(RootHide)
+Author: julioverne & daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
