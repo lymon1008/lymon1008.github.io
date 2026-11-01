@@ -574,6 +574,24 @@ Description: Filza 中文增补包(RootHide)。
 Name: Filza 中文增补包(RootHide)
 Author: Mo/妖刀/Alucard
 
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.sneakycam_2.2.5_arm64e.deb
+Size: 124708
+MD5sum: badc8b8e431be1e8c03ee0bdab23a6ad
+SHA1: b0a427246fab952011017fb3c34b00208538db4d
+SHA256: 42af9731a305044ab85da14a85d276fe08128a7b7ae09889ac3f997c2341e929
+SHA512: ace54f2b7ec9b81a5c0f5564622200952815459bde59d7cca65bf2dce6537485e3c288347723fe3693305b4a6fc02798f82979bcbb1d005e0fc76bc51a47c337
+Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心增加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam隐私相机-Roothide
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
 Package: com.hx.shihua
 Architecture: iphoneos-arm64e
 Version: 1.0
