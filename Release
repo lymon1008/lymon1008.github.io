@@ -9,8 +9,8 @@ Description: lymon的越狱源
 Support: https://lymon1008.github.io/
 Icon: https://lymon1008.github.io/CydiaIcon.png
 MD5Sum:
- 9c2b8cbb525976f22142a4cca4941669  11026 Packages
- 8cdea0d32fba797898df87c88f6d41f1  4977 Packages.gz
+ 85e4076069cf93079eb919b7e6512f1c  13561 Packages
+ 3fa8094daa7d1eda9ce64a59d8fff9fc  6128 Packages.gz
 SHA256:
- 2023b3a2c45e84dfe617b32236488deff119bf4fff9820cc15bfca87646588ea  11026 Packages
- 67e49a15335fd328340cc81fed711e63acc52d3bba365243f02e1cea3a17a9b5  4977 Packages.gz
+ cf719aac9ffe0432c31e6605199e2a93569dbf1d9b6469817b3bba7c5ef535d8  13561 Packages
+ c78d06206f876683fd39179d257a120e713f74326ffacd559038f64e7738be52  6128 Packages.gz

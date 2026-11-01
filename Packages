@@ -221,6 +221,62 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: com.bvn.squidforcecrack.rl
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Section: 工具
+Maintainer: BVN
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
+Size: 36936
+MD5sum: 3a817babf0231da296be4d9ae76b6573
+SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
+SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+SHA512: ed0c976d4ccf2e8403ca5a69381c1592a48700e9bcc06ee7c601130d00a3b98b412de540876ee05b5741a9207a3a0efde8987f98b25a918bdf68329f2c588acf
+Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
+Name: SquidForce VIP
+Author: BVN
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+
+Package: com.colorblack.xiaoxiongyouhao.nosplashad
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.colorblack.xiaoxiongyouhao.nosplashad_1.0.0_iphoneos-arm64e.deb
+Size: 9804
+MD5sum: fbad9ba2abe8bf46066803d251625ca0
+SHA1: 655a1e87e158dc5111bda2d93db4358b8243311b
+SHA256: 1bb9649e19997b77d62dbf12370c424fbb4b7ca70aeda5ae481c905efb784799
+SHA512: 2c4d219c4ae870700f65158fbd62820d806e54bae1c646d2b0a382e646bed126f24f7117a8a0fd4f58ab98495d699252b48990d87a63f5c922049fa86c34a07f
+Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
+Name: 小熊油耗 NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/xiaoxiongyouhao.jpg
+
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1776
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/com.cracklock.7513_1.0.4_iphoneos-arm64e.deb
+Size: 1246872
+MD5sum: b3bc378d6be1abd776f6d38b1d0d7b34
+SHA1: f5fcc358fbbe21a6c8e74994cd61ec5e6508e362
+SHA256: 88b656cdabc40c3665d8ce9fe02739dc0169afd5b852a9efd31e8eb9cf06eefd
+SHA512: bfd74c6c0af5d1a5deacdfcf63ff55917dc920d45badec767ac5cef41bf9484a9197d1bdb3ea3e48390cc56eff04280b1f511c2866b627c48dc3b2fe10881275
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
