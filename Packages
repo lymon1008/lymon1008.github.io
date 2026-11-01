@@ -562,6 +562,49 @@ Description: 修复表情渐变 bug
 Name: 彩虹键盘光效
 Author: MoWang
 
+Package: com.ps.recordpauses
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 168
+Provides: org.thebigboss.recordpause, com.spicat.recordpause,com.ps.recordpause
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Filename: debs/com.ps.recordpauses_2.0.3_iphoneos-arm64e.deb
+Size: 13536
+MD5sum: 10feb2a7d54ec5b3229d4e8f62fab08c
+SHA1: 7812ea0eb6caf119d99eacc0f8f2b612baf6fa6b
+SHA256: d5250873021ccaf715efc81ecc724405d643f4e725a8825fab0d8f108bb4ee14
+SHA512: 917889b9ea518869dda651b6ac5530c1469236b6a7af760622c729db3c226aaca2062856da076841b5033a28df44eeb4c00279b4e9c34f3bc6f305334dc82fba
+Description: 录像暂停 Pause/resume video recording in iOS Camera app.
+Name: 录像暂停 RecordPause
+Author: PoomSmart
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.298
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4624
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/com.qq391160.cpucore_2.0.298_iphoneos-arm64e.deb
+Size: 727088
+MD5sum: 389ece9a1768c647fbe3873aed5c5f3c
+SHA1: 6a6f8e2eccb6525299de3b2020e07ed83584ae67
+SHA256: 94b6c8b847d1f704a4392b7ab2eb1a9c5bc1db872c75c2c814f8147e75043f60
+SHA512: 07cc9b32c2f9f9cda0f5f45631b5ebbba1457e677bfc8085b264ecea68a54406f6ce03b14e9079206419a37f15d92b2e36da23c1178436c449e24eb994fb8e08
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
