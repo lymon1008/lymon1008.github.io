@@ -545,6 +545,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.2.60
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1044
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.60_iphoneos-arm64e.deb
+Size: 735062
+MD5sum: dd64128eaefe0c88b925304edbf54bdf
+SHA1: b2e1bb71f29fc9490a3daae13649d6207c6d877f
+SHA256: 59114c3693e26ad9c491639b93088ea11b23600f12e9429995f780861669ad68
+SHA512: 8b470f42d83fe6d320d8e3754d8bca266a16ac3da83d9d9479d8cbb1c62280428fdd7a0778c610cbf7a01f32c7f0bb0ddab3ec6f983e75f04998163aa7f1a146
+Description: 修复表情渐变 bug
+Name: 彩虹键盘光效
+Author: MoWang
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
