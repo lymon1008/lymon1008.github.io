@@ -1,3 +1,23 @@
+Package: byg.iosios.net.alwaysforwardwatchosnotifications
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.alwaysforwardwatchosnotifications_1.2_iphoneos-arm64e.deb
+Size: 7288
+MD5sum: da76ddadd61fdb01dfee255065f05fbd
+SHA1: 4a695d556a0db8b77faf49a2aeeef25bb038628e
+SHA256: ef7f61744767117faf894b7c7893460b16b1dce4d81f853d59d30f79339be5dd
+SHA512: 3c4282b649620870af9ecf80ede48be490d035ebb929871f28bf140d574d2995eb10c9306a45c345736f8da0b98814574176fca9704c78692a98df99e31aae40
+Description: Forward WatchOS notifications even when unlocked来消息了，手表和手机同时显示！•即使iPhone解锁，也可以发送通知观看•当iPhone锁定时，将通知与手表一起发送到iPhone（WinterMode调整）
+Name: WatchOS Notifications手表消息-Rootless
+Author: Mohammad Abu-Garbeyyeh, p2kdev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.llld.nlrq
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -216,6 +236,30 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/bigtime.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
 
+Package: com.Axs.floating-view
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Section: 分屏插件
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.axs.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1774706
+MD5sum: ad43fc7d16a2b2ab2f4639579cb85c67
+SHA1: 9ce6088c3462d3e311be1f175784cbeb72d84e34
+SHA256: e0aa91b1f0a1d22f29a18b6ef8bf4abe6d8d422200b8176d045ee28ab8b72216
+SHA512: 51d761589339f0573ef1b501084a2f1a8a804f196fbc9d05f37d82eee8cb30c77bd2db94adc789303dc9a56e874ec8cf2ee9c9da86d5875705c7b33cd070cd0a
+Description: 温馨提示:
+  * 1、仅供个人备份与学习研究使用。
+  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
+  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
+  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
+  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
+Name: FV分屏（免授权）
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.jsonPre-Depends: rootless-compat(>= 0.9)
+
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-31
@@ -237,6 +281,29 @@ Name: IPSLog
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.voidy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: xsxs18
+Installed-Size: 1016
+Pre-Depends: rootless-compat(>= 0.9)
+Recommends: uikittools
+Filename: debs/com.axs.voidy_1.0_iphoneos-arm64e.deb
+Size: 396496
+MD5sum: 8df1894fd38bc44c7c2a89c3e2c5734c
+SHA1: bc3cc3ada7947c42a7f64e76619da77cc6e22b0e
+SHA256: 2d89e1ed7f2ec8711e0606956667d3ef650463225bab5fe4e9341b3e90393a5b
+SHA512: 28cd81943be1e1657ad41550d9101840a66f8932d5f24ee25b710fc7c4fa924ba0593217dbc40c33ad2b029080c6c9cd3d47b05ef2f6b98f3faddec988783f2c
+Description: 这是一款轻量级系统清理工具。
+ 1. 清除缓存、日志、临时文件和软件包残留，进行管理
+ 2. 调整与启动守护进程，查找大文件和孤立的软件包
+ 3. 可以按预定时间自动清洁。
+Name: Voidy 清理工具
+Author: xsxs18
+Icon: https://axs66.github.io/pro/icon/voidy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/voidy/js.json
 
 Package: com.bvn.squidforcecrack.rl
 Architecture: iphoneos-arm64e
@@ -608,6 +675,24 @@ Name: Hammer It
 Author: lclrc(SquidForce)
 Icon: https://huayuarc.github.io/icon/HammerIt.png
 
+Package: com.lclrc.hidepullover
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.lclrc.hidepullover_0.0.1_iphoneos-arm64e.deb
+Size: 5992
+MD5sum: 4215c7121f69cbad9032eeb8d4f1b703
+SHA1: 19cffee2f62000341e16927f60235fb570247747
+SHA256: 82401b7316557cb66a6443f7141e02236b95d5bff6ec663123659af0a3cef316
+SHA512: fced2310ee821618f33bb3faea52c54ab5db05d462e95f17870d0fc561b9c071ca0cb72e083c208db8bdce2235d08b6d99bccf40ba201351cce1f10f5faa70ca
+Description: 1. 系统截屏时隐藏    2. 收起到最小时让它不那么显眼
+Name: HidePullOver 隐藏PullOver小把手
+Author: SquidForce
+
 Package: com.lenglengyu.ghallownetwork
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -645,6 +730,25 @@ SHA512: 8b470f42d83fe6d320d8e3754d8bca266a16ac3da83d9d9479d8cbb1c62280428fdd7a07
 Description: 修复表情渐变 bug
 Name: 彩虹键盘光效
 Author: MoWang
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm64e
+Version: 2.1.6
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 2440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64e.deb
+Size: 1877528
+MD5sum: 2826df15b24c23eef41710cf3047db72
+SHA1: 4228e0d43d127c529db416c9e7974230f8560141
+SHA256: 0d088f61d393300f4867bb918c7eeecf8317dcc22f9ca1411e36ebd096f6ff91
+SHA512: 7bfe7a8c9d4a21f432fee8c293a9773d514918922e86bcfeffe0a49a5e89398894a6f5f86ec8dc5bb3a5921502a7379c77ee013abef197bdb621a46e1e11b88e
+Description: A better way to multitask! Fix support for iOS15+
+Name: PullOver Pro
+Author: c1d3r
 
 Package: com.ps.recordpauses
 Architecture: iphoneos-arm64e
@@ -859,6 +963,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
 Name: FilzaSwipeSelect
 Author: korboy <korboybeats@gmail.com>
 
+Package: com.wkk.glasssuitex
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.glasssuitex_1.1-2_iphoneos-arm64e.deb
+Size: 592226
+MD5sum: 1b8a6bd642cc673a4fb11d946b07f9a2
+SHA1: 96ba7e2a67e14ed5c63416d1cf5e540d2cccc39c
+SHA256: 01e25619ba476b4ea566cbbf60f3d848d8ad1016fb35189993d4644a235d078a
+SHA512: 7452fc5e1f20e469f204a7b7078f7b5ad7aeffe99a02ab7569ac5a4566003168d59cb3e483a5fdc903b15bc106655588c5801bd98087e97cf6a6f195faeccf6d
+Description: GlassSuiteX (SpringBoard-only safe build)
+Name: GlassSuiteX
+Author: wkk
+
 Package: com.wkk.vpnfhook
 Architecture: iphoneos-arm64e
 Version: 1.0-1
@@ -1008,4 +1130,22 @@ SHA512: 6da97d2083b566360d0cc392ac311a3ca9623029947cc7187063627daf4cb67caca2efcf
 Description: 安装后无图标无设置，长按桌面应用程序图标，在弹出的菜单窗口点击NetworkFixer即可快速修复该应用程序的网络权限。支持iOS13-iOS16系统
 Author: Netskao
 Name: 3DNetworkFixer联网修复-Roothide
+
+Package: ring
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: M哥
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/ring_1.0.2_iphoneos-arm64e.deb
+Size: 153928
+MD5sum: 038ae88a8c2df9dcdb18724c6eb69705
+SHA1: 622dc7de0787d7fbe44a3a468b53bc3056e89c05
+SHA256: cdc237b70191127586c5ab132dd31e4065d6e543eacb0710ba4fb98721ff374e
+SHA512: 45e43d891ebb8e5e50edb554b08599486cabac4ebc4406cfec36d16bf534c3c3467562540862796deb49a1f220ef472ed6d4529bc06f212ac673ce56cb738424
+Description: 轻松管理铃声音量！
+Name: Ring
+Author: yan
+Icon: https://media.havoc.app/660068a52b78a631ec05699f
 
