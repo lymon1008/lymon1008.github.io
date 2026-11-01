@@ -277,6 +277,79 @@ Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 
 Name: 熄屏幻术
 Author: 7513
 
+Package: com.crctdd.filzarename
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 96
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.filzadebname
+Replaces: com.crctdd.filzadebname
+Filename: debs/com.crctdd.filzarename_0.0.1_iphoneos-arm64e.deb
+Size: 17140
+MD5sum: f9f3463ade27e5bcdde22399db8392a9
+SHA1: ef9bcacc6e6eff8ef9b869ccb710a40def76acdb
+SHA256: ea21c5869a978801d89da6b35d09db61dfa75107347544d46ac855d571c4f49c
+SHA512: ec676a024fd797ad7a98eb5b5d084a50a7b747cd065df31b5d1b02b3a3053d36fd239042da29955aeeda3cbc00d414e2b0af5be0badfd5900cc338d5af7e0a1d
+Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
+Name: Filza Rename
+Author: crctdd
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64e.deb
+Size: 31938
+MD5sum: 0f73596973877a7305956c4fe83059e5
+SHA1: 67f442d19169e16222d52316f092ca088e4a7a37
+SHA256: 65d7edf17f07184e69dfb91e79fa14ec82afcbb4019955b319afd22ea4be9732
+SHA512: 59a602fed83acb4334cfad79f9e15588358dde7aa66a818bcc9a23d5749b56a767ae7b2cd41a56d22b47a6cc919014b58e8291fe98f5a721d678b65734437bac
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_1.0.2_iphoneos-arm64e.deb
+Size: 88264
+MD5sum: 84822d92de4b344ae0fe3c676acb96e2
+SHA1: d8c1dadbd79d99e9a0c7b6e3c6a3e99da06345a7
+SHA256: bbbe440a5a00822b7138f21b102878da98a0dfc6283d8e2a635f6554291a58bc
+SHA512: 1acf567c0ecd72cc643a047ff16d6c3f00b8c428a5c3337d1579d95aacb62c46436e0d17e082bb514bfa993fcb01767b831493c802a39fb5044e44f7de77495d
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+icon: https://huayuarc.github.io/icon/shorbar.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64e.deb
+Size: 188524
+MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
+SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
+SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
+SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
