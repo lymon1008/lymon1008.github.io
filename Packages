@@ -92,25 +92,6 @@ Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(
 Name: Sileo(RootHide)
 Author: Amy While
 
-Package: com.lclrc.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.7.1
-Section: Tweaks
-Maintainer: lclrc(SquidForce)
-Installed-Size: 3808
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
-Size: 962368
-MD5sum: 616d9cbdcb537a777506d50d22609aed
-SHA1: 66ff8afad5f49afcaaaf249dfae86bc25038d44e
-SHA256: 7158eda33a390217f9fda49c8dad062f8eebaf5f5f402059f20447ff10f32cc8
-SHA512: 16c0b253295d2f40741582cc29b8e1ab2007c0b24ccee56cccd69750491276f4e8dff2cee027cdcb8e8c1d9e4f8c620a7ce28d0662f104a46f58db1b7befc5d2
-Description: Control your text or translate as you wish.
-Name: Hammer It
-Author: lclrc(SquidForce)
-Icon: https://huayuarc.github.io/icon/HammerIt.png
-
 Package: com.ps.recordpauses
 Architecture: iphoneos-arm64e
 Version: 2.0.3
