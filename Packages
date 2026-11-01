@@ -152,6 +152,75 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Name: Unseen
 Author: 82flex
 
+Package: com.a0.resumerecafterflip
+Architecture: iphoneos-arm64e
+Version: 0.8.0
+Section: Tweaks
+Maintainer: 王
+Installed-Size: 204
+Provides: com.local.resumerecafterflip
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.local.resumerecafterflip
+Replaces: com.local.resumerecafterflip
+Filename: debs/com.a0.resumerecafterflip_0.8.0_iphoneos-arm64e.deb
+Size: 16628
+MD5sum: 2feaf2d18c31653d7f4aa9356a3cb1f5
+SHA1: 1bf4037df83a33d2d4e5aaa534094ffe98994d47
+SHA256: 4c8c58fe458b79d9fe504b2630afba5e908ef18672c495630708c7d058f764c2
+SHA512: efb882f913af5821539ad4643bfaf46a7a8a1ca2adeb823c46ad5f6bbc16ffce332a371a73221f398eeb356ac265e6b8adaf274a5575922243bb016fc55fae78
+Description: 系统相机录像中双击翻转会打断录像（-11818）。本插件在被打断后自动续录，并在按停止时把各分段无损拼成一个完整视频写入相册，原分段自动清理。全程无需手动操作，翻转前后不丢画面。
+Name: Camera Resume Rec
+Author: 王
+icon: https://huayuarc.github.io/icon/resumerecafterflip.jpg
+
+Package: com.axs.bigtime
+Architecture: iphoneos-arm64e
+Version: 5.2.0-81
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.axs.screenlocktime
+Filename: debs/com.axs.bigtime_5.2.0-81_iphoneos-arm64e.deb
+Size: 144500
+MD5sum: bcccf90e5b5852551b21807f1c75089a
+SHA1: 4ac80d151025d2a451c23461369b2aa636d46b00
+SHA256: 9fdc2194804ab4c7de25e6387e92ac993405eb38c45cdf017da041b8d61dee86
+SHA512: 0e74df257a1018fd7d8cdd6bd30d0db4d196f372b8d67dca3811c885cb06767d9c22b934f38957e05c80c8ea5b8b835449a040b663f0551345fd824a38a7eb05
+Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
+ * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度和折射调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Name: BigTime
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-31
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/com.axs.ipslog_5.2.0-31_iphoneos-arm64e.deb
+Size: 87864
+MD5sum: 127031f60618f90c275312aad0899841
+SHA1: 80a1684c6c34a57438d39a03a62b3b1558be6836
+SHA256: 3ce1c25f9a5dcb8eb3e3b2d5ede15a5af641638f8871b053018c7d504000aa18
+SHA512: a9116d38f9c13cd6c8df4b189f477223df5ad92ae736302393145d54a00d96c79d15a3469cf2def4a745bdd0a3730a4c07bc14059577cdd309c44cfd70e198c3
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
