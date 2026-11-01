@@ -718,6 +718,81 @@ Author: fiore & p2kdev & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
+Package: com.wkk.appdata
+Architecture: iphoneos-arm64e
+Version: 1.4.7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 14408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.appdata_1.4.7_iphoneos-arm64e.deb
+Size: 4442808
+MD5sum: 2d67e628026ec1b9baf4c77dc7caeff7
+SHA1: 750504bc86f80267b8e9ca0fb95d0efd18f23588
+SHA256: 880b526c664fa871f929d60d6d0d08def16bad11c1b0dfc3d194a12d0a2011be
+SHA512: 5eb0a34bf36e676ed533fd975d86ec0eae307537aae8102ad42a84e2c8696282847833286d7663f1866bc207b675019bf996f4e668c47a42591dcd8890e70ade
+Description: App强大的管理器，可以查看路径/清理缓存/重制数据/降级等功能。
+Name: AppData
+Author: Fouad Raheb
+Icon: https://s1.imagehub.cc/images/2025/01/09/b246fc94201f32510a72d268435cfd4a.png
+
+Package: com.wkk.customcallbg
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 97398
+MD5sum: 31d09ae84a46d80cbbeccaceb53f59f4
+SHA1: fe948f62787a516518122693e2a7b25cf177a2f2
+SHA256: d534b5ee962e4aab7724117ebcac5b5624929ef635557ee8152da7413a13df44
+SHA512: 2f764eaa85c651fb36fe35c8232cad40d7051512b2aeb882269dc4e1fa1959940f1e528d38402562ee23b1b0261b6690b9db85ea49b96c4d8d150caf9921b128
+Description: iOS 14-17 自定义来去电背景插件
+Name: CustomCallBg
+Author: iosdump
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.wkk.filzaswipeselect
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
+Size: 11518
+MD5sum: 12381c78ef3ae369a6e1634a49389bb8
+SHA1: a275599ccce5f9dd4cf88526ff37a852dfe543cb
+SHA256: a83b4fef5f78af0c17a9324254bdeea7ccb002abaab5cd28063c906e51444647
+SHA512: d9a14c7f39186c77fa7c344bbd0bb0ac3c010ea42a60ab16fed77e3d166c327ee7ce8af9a3b584f3bc1cf39ffe240c85718f9b97e539cec17b4b8608daf16770
+Description: Filza的滑动多选功能。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
+Author: korboy <korboybeats@gmail.com>
+
+Package: com.wkk.vpnfhook
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.vpnfhook_1.0-1_iphoneos-arm64e.deb
+Size: 2972
+MD5sum: 6183242bce27ed8a2c180f85c4e1ce48
+SHA1: d04fe285652f0b367f1a8ea8daf0cd53749a4d39
+SHA256: 0969d71a13517c41f0f7b6756a650b49e4623716058eec17ace24c6e0bffc130
+SHA512: ae0a230bb20083f9550b388e8b01f22515cc2531b508ca5e5020b1cd740ce5759e80196da098655d246cf541df0f702312ae9f9300a233ec452c84d170aab03b
+Description: 禁用链接vpn飞入动画、控制中心vpn展示
+Name: 禁用vpn显示
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
