@@ -1,0 +1,16 @@
+Origin: lymon的越狱源
+Label: lymon的越狱源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: lymon的越狱源
+Support: https://lymon1008.github.io/
+Icon: https://lymon1008.github.io/CydiaIcon.png
+MD5Sum:
+ ac827e15d706421506cccb839ae73f2b  2556 Packages
+ 458a9d9cb6fded123c3e08d1c48fa109  1509 Packages.gz
+SHA256:
+ 01958ec9415374ee4d900de2a948e2fa6d4ffcfb756bee9fdbed23d94d4faf0e  2556 Packages
+ fb042e4643838dd0d1452900738e29771a887c90435708cdf5264d47c2881f8a  1509 Packages.gz

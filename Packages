@@ -1,0 +1,55 @@
+Package: com.dao.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-14
+Section: 嗨-系统
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/com.dao.sileo_2.5.1-14_iphoneos-arm64e.deb
+Size: 3007580
+MD5sum: 68a5fced6ce6da22b7bfbd9d5e9197bc
+SHA1: 655682a1f6511c8e1e3e668310733ad5a394a922
+SHA256: 564280c20d3f93b0f604c77d6ac99ca41c58d4789e2c06ff50e2d0685ac07e9f
+SHA512: 6d87a64b1951606a427a680a0d34cf5087fe208ece51e3cb171f1718921c0754f69126305eb9a05898c895f6aa10bacabe6bfb77ba33d295160470c88a4a6554
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Name: Sileo(RootHide)
+Author: Amy While
+
+Package: com.wkk.filzaswipeselect
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
+Size: 11518
+MD5sum: 12381c78ef3ae369a6e1634a49389bb8
+SHA1: a275599ccce5f9dd4cf88526ff37a852dfe543cb
+SHA256: a83b4fef5f78af0c17a9324254bdeea7ccb002abaab5cd28063c906e51444647
+SHA512: d9a14c7f39186c77fa7c344bbd0bb0ac3c010ea42a60ab16fed77e3d166c327ee7ce8af9a3b584f3bc1cf39ffe240c85718f9b97e539cec17b4b8608daf16770
+Description: Filza的滑动多选功能。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
+Author: korboy <korboybeats@gmail.com>
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Priority: optional
+Section: System
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.xybp888.perfectdynamiclsland.roothide_1.4.0_iphoneos-arm64e.deb
+Size: 922314
+MD5sum: 0c2e7bf6845270af5d2155722e6bf166
+SHA1: f98c31684da2ce8c47375e1f228edf7a9f56ac70
+SHA256: bcaeec09627fe09eba39e698ff5d6e574cd0f490c57023bba4673ca6567f0883
+SHA512: 6356cc6126ce0cb2a00857cb44a320015ed308e2dbea3ffab6f49d8fadd70b2e274632bd8ed5ef1eb7626ef7f9cccf43c478478c8d9b8e3a47850d276da2f6ff
+Description: 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/999
+SileoDepiction: https://apt.htv123.com/sileo/999
+
