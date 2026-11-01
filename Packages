@@ -1,3 +1,20 @@
+Package: cn.llld.nlrq
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: roothide插件
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.nlrq_0.0.1_iphoneos-arm64e.deb
+Size: 3500
+MD5sum: cdc7ec7fad190dd8872df79b2afeb1f9
+SHA1: fbbe5be905e0946ea4019b868d381f8fed7fbfd4
+SHA256: 6f424f11f9cef7852b0d6b8f13864b934481067099c182d75565f586a9c5d735
+SHA512: 5c8e4f89d7cca9b7f65d587cec40dac9f27fa62d7f7c7b87ac39e2829c76b7b7fd20c3fb941630cc76a5e60bf192e874c8989e93fd0d89f9b169ee352b5de37d
+Description: Enlarge the built-in lunar calendar and date (the default is a little small)放大自带的农历和日期（默认的有点小）
+Name: 放大农历日期
+Author: 来了老弟
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-6
