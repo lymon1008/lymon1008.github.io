@@ -622,6 +622,102 @@ Description: JSC security hardening for WebContent process. Configures JavaScrip
 Name: lockdown
 Author: roothide
 
+Package: com.roothide.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.5
+Section: 依赖插件
+Maintainer: roothide
+Installed-Size: 2476
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: debs/com.roothide.patcher_2.1.5_iphoneos-arm64e.deb
+Size: 894784
+MD5sum: d36526f6aba8ca1856759b43005154d5
+SHA1: e0222b2e499d8bf11caf6eb4acf6ef3e4131b5fd
+SHA256: a5dde39210be3bbcf6c96298d2b0a42da520b6b646de3d9c3c3517ee288cc760
+SHA512: 47500359bd9a997003b7ad653419e0fe9450f9c0d8bf8ac8868da9712536ba43ec822886309b5ff1e98dfa3d64ab6f94a0ba82d995b5156b1d7e4b9c5f3ecceb
+Description: 将无根插件包转换成隐根(Roothide)，但并不是所有无根插件包都能转换成功。
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.sini.settingsrevamp
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Section: Tweaks
+Maintainer: SOPPPra
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Filename: debs/com.sini.settingsrevamp_3.0.1_iphoneos-arm64e.deb
+Size: 333658
+MD5sum: 883b874fe56967f0576c25d8bb9f639e
+SHA1: 974dbea257c2f618c292c91c8cafa949bc5b4c0a
+SHA256: 9ee80a4bbd600f7021d4a5d17664de55598345f9d834c338d75888d40118f2b3
+SHA512: f35cec29656227a905605a73c0d865f1968f4a94fd75aa2be0d4111a03a06d0f710bdbb9ffd2968f024922e3f059a7b759b71b3f4f109e2bee3dafc3fbd1de9c
+Description: 设置美化，插件归类。
+Author: SOPPPra
+Icon: https://huayuarc.github.io/icon/settingsrevamp.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
+Name: SettingsRevamp
+
+Package: com.sini.singlevpn
+Architecture: iphoneos-arm64e
+Version: 2.1-2
+Section: 越狱插件
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 420
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.sini.singlevpn_2.1-2_iphoneos-arm64e.deb
+Size: 35252
+MD5sum: ae046c1525b999089cce58eb6832cf87
+SHA1: bdd5f30eab5c91e23fea64d42de02af82b24e783
+SHA256: 6d887bb1e98db2032790f6713f6fd9f7de65ec720a9e06ce73afc07ed17b7211
+SHA512: aebc3d46e23faa884f9c36ecf163f73a8360ff83a23320f35bad145045662adc49b64184e419d4b481c676cd7ac982f949b34991882a628de5eaf6301c04c030
+Description: 将 VPN 状态和无线状态合并到一个图标中。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
+Name: Single VPN(roothide)
+Author: 82Flex <82flex@gmail.com>
+
+Package: com.sini921.appstoretroller
+Architecture: iphoneos-arm64e
+Version: 0.1.2-5
+Section: 越狱插件
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini921.appstoretroller_0.1.2-5_iphoneos-arm64e.deb
+Size: 44024
+MD5sum: 8a3ed1e1a89cc149ffd5b8a30a699e20
+SHA1: cc41affc7f02f32de26a4fa90cd99ea8b66cacfd
+SHA256: 1588198fda0dfd47bfe554fe20ee91d25c7a9f6168794c86f9e2916b7ad6e4ff
+SHA512: 2c5512bc17476cfcbd2c10171bacff3aa0704fdb097f93257b4c9b9688e20b5acb4329fc9948214de40bc0e8a611c042c10715537123a41746033982bc6bc6cb
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Name: AppStoreTroller(roothide)
+icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+Author: Mineek & Nathan & SINI
+
+Package: com.sini921.ccborder
+Architecture: iphoneos-arm64e
+Version: 1.1.2-44
+Section: 控制中心
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Filename: debs/com.sini921.ccborder_1.1.2-44_iphoneos-arm64e.deb
+Size: 213668
+MD5sum: a5e25aa1115e4f9cfcaedda9b3d1d4a1
+SHA1: d2f10aa1e0009ecf7d54673a593c0c14d4055eaf
+SHA256: b486d8608a22d8666f9a1f7101f101b490166a4927dc33ba675798b50150c2b5
+SHA512: 3d953c9bf740c666b0762fe4560db462a4aa4a7770df0433e5e21307693a49d05c674cdcf659e0bc2a2319f4fc9f35cec7123edb5eceb6b2fc76e61ce68998ec
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Name: CCBorder(roothide)
+Author: fiore & p2kdev & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+
 Package: com.sini.fixset
 Architecture: iphoneos-arm64e
 Version: 1.1
