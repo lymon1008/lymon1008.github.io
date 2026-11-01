@@ -98,6 +98,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64e
+Version: 1.6.1-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb
+Size: 2962200
+MD5sum: b7c82b74436c4f6f8d48a1c5e1ba4296
+SHA1: 03c10edd63dc35e68c584bdcd6538b2cca294aed
+SHA256: 90bb548545c8c7398cce4828ac8ffb79fca9902e943d0abea2bd55a4243af200
+SHA512: d0791077dccffaba52c2defcdb6beb0f47954187a541998d12aa35b3e0755bc3d9324199700cb5f307a21be106c1462f3c36f160e17954e546c872f522b6e118
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
 Package: cn.zqbb.hello.memorystatus
 Architecture: iphoneos-arm64e
 Version: 3.9.0-9
